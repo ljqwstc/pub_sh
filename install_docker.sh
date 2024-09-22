@@ -18,7 +18,7 @@ systemctl enable docker
 systemctl start docker
 
 # 下载docker-compose
-curl -L https://github.com/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/v2.29.7/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 # 赋予执行权限
 chmod u+x /usr/local/bin/docker-compose
